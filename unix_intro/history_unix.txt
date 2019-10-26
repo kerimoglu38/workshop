@@ -1,0 +1,16 @@
+  363  ls
+  364  head planets.txt
+  365  for item in earth mars venus\ndo\necho $item\necho $item >> planets.txt\ndone
+  366  ls
+  367  head planets.txt
+  368  cat planets.txt
+  369  ls
+  370  cleatr
+  371  clear
+  372  for item in $(cat planets.txt)\ndo \necho $item\ndone
+  373  clear
+  374  ls
+  375  for object in $(head directory_contents.txt)\ndo\necho $object\ndone
+  376  ls
+  377  head directory_contents.txt
+  378  clear
